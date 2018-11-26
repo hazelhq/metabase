@@ -191,7 +191,7 @@ export function formatNumber(number: number, options: FormattingOptions = {}) {
       ) {
         const match = formatted.match(NUMBER_REGEX);
         if (match) {
-          formatted = (match[1] || "") + (match[2] || "");
+          formatted = (match[1] || "").trim() + (match[2] || "").trim();
         }
       }
 
