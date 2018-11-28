@@ -2,31 +2,31 @@
  * NOTE: KEEP SYNCRONIZED WITH COLORS.JS
  */
 :root {
-  --color-brand: #509ee3;
-  --color-accent1: #9cc177;
-  --color-accent2: #a989c5;
-  --color-accent3: #ef8c8c;
-  --color-accent4: #f9d45c;
-  --color-accent5: #f2a86f;
-  --color-accent6: #98d9d9;
-  --color-accent7: #7172ad;
-  --color-admin-navbar: #7172ad;
+  --color-brand: #22A491; /* teal #509ee3 */
+  --color-accent1: #C5DC7A; /* lime #9cc177 */ ;
+  --color-accent2: #9592AF; /* violet #a989c5 */
+  --color-accent3: #D76C6E; /* salmon #ef8c8c */
+  --color-accent4: #F2C751; /* lemon #f9d45c */
+  --color-accent5: #FF7E65; /* peach #f2a86f */
+  --color-accent6: #6FC9C7; /* cyan #98d9d9 */
+  --color-accent7: #9592AF; /* violet #7172ad */
+  --color-admin-navbar: #9592AF;
   --color-white: #ffffff;
-  --color-black: #2e353b;
-  --color-success: #84bb4c;
-  --color-error: #ed6e6e;
-  --color-warning: #f9cf48;
-  --color-text-dark: #2e353b;
-  --color-text-medium: #74838f;
+  --color-black: #51535A; /* #2e353b */
+  --color-success: #C5DC7A; /* lime #84bb4c */
+  --color-error: #D76C6E; /* salmon #ed6e6e */
+  --color-warning: #F2C751; /* lemon #f9cf48 */
+  --color-text-dark: #51535A;
+  --color-text-medium: #ACACAD; /* #74838f */
   --color-text-light: #c7cfd4;
   --color-text-white: #ffffff;
-  --color-bg-black: #2e353b;
+  --color-bg-black: #51535A;
   --color-bg-dark: #93a1ab;
-  --color-bg-medium: #edf2f5;
-  --color-bg-light: #f9fbfc;
+  --color-bg-medium: #F9F9F9; /* #edf2f5 */
+  --color-bg-light: #EFEDEA; /* #f9fbfc */
   --color-bg-white: #ffffff;
-  --color-shadow: rgba(0, 0, 0, 0.08);
-  --color-border: #d7dbde;
+  --color-shadow: rgba(0, 0, 0, 0.1); /* rgba(0, 0, 0, 0.08) */
+  --color-border: #ACACAD; /* #d7dbde */
 
   /* night mode colors */
   --night-mode-color: color(var(--color-text-white) alpha(-14%));
