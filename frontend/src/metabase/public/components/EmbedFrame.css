@@ -5,7 +5,7 @@
 .EmbedFrame-header,
 .EmbedFrame-footer {
   color: var(--color-text-dark);
-  background-color: white;
+  background-color: var(--color-bg-light);
 }
 
 .Theme--night.EmbedFrame {
