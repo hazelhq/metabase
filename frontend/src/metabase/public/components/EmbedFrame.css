@@ -2,6 +2,10 @@
   background-color: white;
 }
 
+.EmbedFrame .Dashboard {
+  min-height: 0;
+}
+
 .EmbedFrame-header,
 .EmbedFrame-footer {
   color: var(--color-text-dark);
